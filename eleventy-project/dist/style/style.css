@@ -1,1 +1,19 @@
+.desk-nav {
+  list-style-type: none;
+  background-color: #1d1c1c;
+}
 
+.nav-item-desk {
+  text-decoration: none;
+  color: white;
+}
+
+body {
+  background-color: black;
+}
+
+.header-title {
+  text-align: center;
+  color: #ffffff;
+  text-shadow: 5px 5px 4px #ff0000;
+}
