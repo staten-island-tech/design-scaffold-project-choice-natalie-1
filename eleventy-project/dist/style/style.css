@@ -1,19 +1,76 @@
-.desk-nav {
-  list-style-type: none;
-  background-color: #1d1c1c;
-}
+@import url("./variables.css");
 
-.nav-item-desk {
-  text-decoration: none;
-  color: white;
-}
-
+*,
+html,
 body {
+  font-size: 62.5%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Montserrat", sans-serif;
   background-color: black;
 }
-
+.header {
+  width: 100%;
+  margin: 0 auto;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 .header-title {
-  text-align: center;
+  text-transform: uppercase;
+  align-self: flex-start;
+  font-weight: 700;
+  margin: 3rem auto;
+  font-size: 85px;
   color: #ffffff;
   text-shadow: 5px 5px 4px #ff0000;
+}
+.header-container {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  justify-content: center;
+  height: 80%;
+  width: 45%;
+  margin: 0 auto;
+}
+.desk {
+  background-color: #1d1c1c;
+  width: 100%;
+  margin: 0;
+  z-index: 2;
+  height: 6vh;
+  display: flex;
+  justify-content: flex-end;
+}
+.desk-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 20%;
+  height: 100%;
+}
+
+.nav-item-desk,
+.nav-item-desk:visited,
+.nav-item-desk:link {
+  font-size: 35px;
+  font-weight: 700;
+  color: white;
+  margin: 1rem 0;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+button {
+  text-decoration: none;
+  background-color: #1d1c1c;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
 }
