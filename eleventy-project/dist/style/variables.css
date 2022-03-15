@@ -29,10 +29,10 @@ h5 {
 
 .light {
   --primary-background: var(--white);
-  --nav-background: var(--light-black);
-  --post-background: var(--coral);
+  --nav-background: var(--peach);
+  --post-background: var(--light-pink);
   --text-primary: var(--black);
-  --post-button: var(--greyish-pink);
-  --sort-buttons: var(--coral);
+  --post-button: var(--black);
+  --sort-buttons: var(var(--light-pink));
   --nav-text: var(--white);
 }
