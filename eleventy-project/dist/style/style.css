@@ -80,20 +80,20 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  background-color: white;
   align-items: center;
+  padding-top: 10rem;
 }
 
 .article {
   color: var(--white);
   font-weight: 400;
   font-size: 50px;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding: 3rem;
   background-color: var(--coral);
   object-fit: contain;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
   justify-content: space-around;
+  margin-right: 1rem;
 }
 
 .article-link {
@@ -104,4 +104,11 @@ body {
   font-size: 20px;
   font-weight: 400;
   display: inline-block;
+}
+
+.main-article {
+  color: var(--white);
+  font-weight: 400;
+  font-size: 50px;
+  text-align: center;
 }
