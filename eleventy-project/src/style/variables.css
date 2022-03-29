@@ -21,7 +21,7 @@ h5 {
   --primary-background: var(--black);
   --nav-background: var(--light-black);
   --post-background: var(--coral);
-  --text-primary: var(--black);
+  --text-primary: var(--white);
   --post-button: var(--greyish-pink);
   --sort-buttons: var(--coral);
   --nav-text: var(--white);
@@ -31,7 +31,7 @@ h5 {
   --primary-background: var(--white);
   --nav-background: var(--peach);
   --post-background: var(--light-pink);
-  --text-primary: var(--black);
+  --text-primary: var(--red);
   --post-button: var(--black);
   --sort-buttons: var(var(--light-pink));
   --nav-text: var(--white);
