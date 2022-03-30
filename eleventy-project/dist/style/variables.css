@@ -1,0 +1,38 @@
+:root {
+  --black: #000000;
+  --light-black: #1d1c1c;
+  --white: #ffffff;
+  --peach: #f18c8c;
+  --light-pink: #ffc6c6;
+  --coral: #d76767;
+  --greyish-pink: #e3a9a9;
+  --red: #d43535;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  text-align: center;
+}
+
+.dark {
+  --primary-background: var(--black);
+  --nav-background: var(--light-black);
+  --post-background: var(--coral);
+  --text-primary: var(--white);
+  --post-button: var(--greyish-pink);
+  --sort-buttons: var(--coral);
+  --nav-text: var(--white);
+}
+
+.light {
+  --primary-background: var(--white);
+  --nav-background: var(--peach);
+  --post-background: var(--light-pink);
+  --text-primary: var(--red);
+  --post-button: var(--black);
+  --sort-buttons: var(--light-pink);
+  --nav-text: var(--white);
+}

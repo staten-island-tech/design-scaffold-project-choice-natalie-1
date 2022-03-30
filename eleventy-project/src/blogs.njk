@@ -1,0 +1,32 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Articles</title>
+    <link rel="stylesheet" href="/style/style.css">
+</head>
+<body class="dark">
+    {% include 'nav.njk' %}
+    <section class="section-container">
+       <div class="btn-container">
+        <button class="btn">Newest</button>
+        <button class="btn">Oldest</button>
+        <button class="btn">A-Z</button>
+       </div>
+        <ul class="articles">
+            {%- for post in collections.post -%}
+            <article class="article">
+                <div class="article-text">
+                    <h3 class="article-title">{{post.data.title}}</h3>
+                    <h4 class="article-author">By {{post.data.author}}: {{post.data.date | postDate}}</h4>
+                    <img src="{{post.data.image}}" alt="" class="img-preview">
+                    <a class="article-link" href="{{post.url}}">READ NOW</a>
+                </div>
+            </article>
+            {%- endfor -%}
+        </ul>
+    </section>
+    <script type="module" src="/js/index.js"></script>
+</body>
+</html>
