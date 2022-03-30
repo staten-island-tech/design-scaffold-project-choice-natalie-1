@@ -33,6 +33,6 @@ h5 {
   --post-background: var(--light-pink);
   --text-primary: var(--red);
   --post-button: var(--black);
-  --sort-buttons: var(var(--light-pink));
+  --sort-buttons: var(--light-pink);
   --nav-text: var(--white);
 }
