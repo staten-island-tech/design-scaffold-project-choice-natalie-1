@@ -152,9 +152,15 @@ body {
   padding-top: 3rem;
 }
 
-.btn,
-.btn:link,
-.btn:visited {
+.btn-old,
+.btn-old:link,
+.btn-old:visited,
+.btn-new,
+.btn-new:link,
+.btn-new:visited,
+.btn-sort,
+.btn-sort:link,
+.btn-sort:visited {
   text-transform: uppercase;
   text-decoration: none;
   padding: 1rem 3rem;
