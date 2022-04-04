@@ -4,9 +4,11 @@
   --white: #ffffff;
   --peach: #f18c8c;
   --light-pink: #ffc6c6;
-  --coral: #d76767;
-  --greyish-pink: #e3a9a9;
+  --light-blue: #aeceff;
+  --blue: #92b8ff;
   --red: #d43535;
+  --background-img1: url("/media/background1.jpg");
+  --background-img2: url("/media/background2.jpg");
 }
 
 h1,
@@ -20,11 +22,12 @@ h5 {
 .dark {
   --primary-background: var(--black);
   --nav-background: var(--light-black);
-  --post-background: var(--coral);
+  --post-background: var(--light-blue);
   --text-primary: var(--white);
-  --post-button: var(--greyish-pink);
-  --sort-buttons: var(--coral);
+  --post-button: var(--blue);
+  --sort-buttons: var(--light-blue);
   --nav-text: var(--white);
+  --background-img: var(--background-img1);
 }
 
 .light {
@@ -35,4 +38,5 @@ h5 {
   --post-button: var(--black);
   --sort-buttons: var(--light-pink);
   --nav-text: var(--white);
+  --background-img: var(--background-img2);
 }
