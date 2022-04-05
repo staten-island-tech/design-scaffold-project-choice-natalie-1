@@ -20,7 +20,21 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  animation-duration: 1s;
+  animation-name: slidein;
 }
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
 .header-title {
   text-transform: uppercase;
   align-self: flex-start;
@@ -28,7 +42,7 @@ body {
   margin: 3rem auto;
   font-size: 85px;
   color: var(--text-primary);
-  text-shadow: 5px 5px 4px #553535;
+  text-shadow: 5px 5px 4px var(--black);
 }
 
 .header-container {
@@ -150,6 +164,8 @@ body {
   flex-wrap: wrap;
   text-align: center;
   padding-top: 3rem;
+  animation-duration: 1s;
+  animation-name: slidein;
 }
 
 .btn-old,
@@ -174,4 +190,9 @@ body {
 
 .btn:hover {
   transform: scale(1.25);
+}
+
+@media only screen and (max-width: 800px) {
+}
+@media only screen and (max-width: 600px) {
 }
