@@ -99,7 +99,7 @@ body {
   padding-top: 5rem;
   display: grid;
   grid-template-columns: 40% 40%;
-  grid-row: auto auto;
+  grid-row: 40% 40%;
   grid-column-gap: 2rem;
   grid-row-gap: 2rem;
   justify-items: center;
@@ -195,4 +195,10 @@ body {
 @media only screen and (max-width: 800px) {
 }
 @media only screen and (max-width: 600px) {
+  .articles {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 2rem;
+  }
 }
