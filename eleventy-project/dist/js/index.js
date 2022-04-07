@@ -7,3 +7,6 @@ document.querySelector(".theme").addEventListener("click", function () {
     document.body.classList.remove("light");
   }
 });
+
+const arrayBlog = document.getElementsByClassName("article");
+const blog = Array.from(arrayBlog);
