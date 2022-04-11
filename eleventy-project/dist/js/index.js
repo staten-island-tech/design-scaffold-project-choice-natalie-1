@@ -8,5 +8,8 @@ document.querySelector(".theme").addEventListener("click", function () {
   }
 });
 
-const arrayBlog = document.getElementsByClassName("article");
-const blog = Array.from(arrayBlog);
+const blog = document.getElementsByClassName("article-author");
+
+const date = Array.from(blog).forEach(function (element) {
+  console.log(element);
+});
