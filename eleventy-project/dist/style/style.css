@@ -154,8 +154,8 @@ body {
   transition: transform 0.2s;
 }
 .header-logo {
-  width: 60rem;
-  height: 60rem;
+  width: 50rem;
+  height: 50rem;
   object-fit: contain;
   padding-bottom: 2rem;
   padding-top: 2rem;
@@ -175,15 +175,15 @@ body {
   animation-name: slidein;
 }
 
-.btn-old,
-.btn-old:link,
-.btn-old:visited,
-.btn-new,
-.btn-new:link,
-.btn-new:visited,
-.btn-sort,
-.btn-sort:link,
-.btn-sort:visited {
+.btn-food,
+.btn-food:link,
+.btn-food:visited,
+.btn-culture,
+.btn-culture:link,
+.btn-culture:visited,
+.btn-all,
+.btn-all:link,
+.btn-all:visited {
   text-transform: uppercase;
   text-decoration: none;
   padding: 1rem 3rem;
@@ -195,7 +195,9 @@ body {
   transition: transform 0.2s;
 }
 
-.btn:hover {
+.btn-culture:hover,
+.btn-food:hover,
+.btn-all:hover {
   transform: scale(1.25);
 }
 
