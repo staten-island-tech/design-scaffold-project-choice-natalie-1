@@ -10,9 +10,10 @@
     {% include 'nav.njk' %}
     <section class="section-container">
        <div class="btn-container">
-        <button class="btn-food">Food</button>
-        <button class="btn-culture">Culture</button>
-        <button class="btn-all">All</button>
+      <!--   <button class="btn-one">Food</button>
+        <button class="btn-two">Culture</button>
+        <button class="btn-three">All</button> -->
+        <input type="text" id="myInput"  placeholder="Search Blog.....">
        </div>
         <ul class="articles">
             {%- for post in collections.post -%}
