@@ -165,7 +165,7 @@ body {
 .header-logo:hover {
   transform: scale(1);
 }
-.btn-container {
+.filter-container {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -250,3 +250,5 @@ body {
   border: 1px solid #ddd;
   margin-bottom: 12px;
 }
+
+https://medium.com/@benjamin.flanders96/how-to-create-a-simple-javascript-filter-67e50b32ccb5

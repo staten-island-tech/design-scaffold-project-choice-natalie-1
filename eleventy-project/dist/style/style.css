@@ -165,7 +165,7 @@ body {
 .header-logo:hover {
   transform: scale(1);
 }
-.btn-container {
+.filter-container {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
