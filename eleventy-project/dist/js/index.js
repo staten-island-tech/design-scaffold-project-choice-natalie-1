@@ -14,38 +14,28 @@ const arrayofBlog = Array.from(blog).forEach(function (element) {
   console.log(element);
 }); */
 
-filterObject("all");
+function myFunction() {
+  // Declare variables
+  var input, filter, ul, h3, a, i, txtValue;
+  input = document.getElementById("myInput");
+  filter = input.value.toUpperCase();
+  ul = document.getElementsByClassName("article");
+  h3 = h3.getElementsByTagName("h3");
 
-function filterObject(c) {
-  var x, i;
-  x = document.getElementsByClassName("article");
-  if (c === "all") c = "";
-  for (i = 0; i < x.length; i++) {
-    removeClass(x[i], "show");
-    if (x[i].className.indexOf(c) > -1) addClass(x[i], "show");
-  }
-}
-
-function removeClass(element, name) {
-  var i, arr1, arr2;
-  arr1 = element.className.split(" ");
-  arr2 = name.split(" ");
-  for (i = 0; i < arr2.length; i++) {
-    while ((arr1.indexOf(arr2[i]), -1)) {
-      arr1.splice(arr1.indexOf(arr2[i]), 1);
+  // Loop through all list items, and hide those who don't match the search query
+  for (i = 0; i < li.length; i++) {
+    a = h3[i].getElementsByTagName("a")[0];
+    txtValue = a.textContent || a.innerText;
+    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+      h3[i].style.display = "";
+    } else {
+      h3[i].style.display = "none";
     }
   }
-  element.className = arr1.join(" ");
 }
 
-document.querySelector(".btn-one").addEventListener("click", function () {
-  filterObject("food");
-});
-
-document.querySelector(".btn-two").addEventListener("click", function () {
-  filterObject("culture");
-});
-
-document.querySelector(".btn-three").addEventListener("click", function () {
-  filterObject("all");
-});
+document
+  .querySelector(".input")
+  .addEventListener("input", "onclickup", function () {
+    myFunction();
+  });
