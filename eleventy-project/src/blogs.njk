@@ -13,9 +13,9 @@
 <!--         <button class="btn-one">Food</button>
         <button class="btn-two">Culture</button>
         <button class="btn-three">All</button> -->
-       <input type="text" id="myInput" onkeyup="myFunction()"placeholder="Search Blog.....">
+       <input type="text" id="filter" placeholder="Search Blog.....">
        </div>
-        <ul class="articles">
+        <div class="articles">
             {%- for post in collections.post -%}
             <article class="article">
                 <div class="article-text">
@@ -26,7 +26,7 @@
                 </div>
             </article>
             {%- endfor -%}
-        </ul>
+        </div>
     </section>
     <script type="module" src="/js/index.js"></script>
 </body>
