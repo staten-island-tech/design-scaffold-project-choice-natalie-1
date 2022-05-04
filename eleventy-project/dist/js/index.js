@@ -8,26 +8,23 @@ document.querySelector(".theme").addEventListener("click", function () {
   }
 });
 
-/* const blog = document.getElementsByClassName("article-title");
-
-const arrayofBlog = Array.from(blog).forEach(function (element) {
-  console.log(element);
-}); */
-
 document.getElementById("filter").onkeyup = function () {
   searchProduct();
 };
 
 function searchProduct() {
   const input = document.getElementById("filter").value.toUpperCase();
-  const blogContainer = document.getElementsByClassName("articles");
-  console.log(blogContainer);
 
-  const blog = blogContainer.getElementsByClassName("article");
-  console.log(blog);
+  const blogs = document.querySelectorAll(".article,.article-text");
 
-  for (let i = 0; i < blog.length; i++) {
-    let title = blog[i].querySelector(".article-text h3.article-title");
+  for (let i = 0; i < blogs.length; i++) {
+    let title = blogs[i].querySelector(".article-text h3.article-title");
     console.log(title);
+
+    if (title.innerText.toUpperCase().indexOf(input) > -1) {
+      blogs[i].style.display = "";
+    } else {
+      blogs[i].style.display = "none";
+    }
   }
 }
