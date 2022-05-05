@@ -1,12 +1,12 @@
 :root {
-  --black: #000000;
+  --grey-pink: #ca9090;
   --light-black: #1d1c1c;
   --white: #ffffff;
   --peach: #f18c8c;
   --light-pink: #ffc6c6;
   --light-blue: #aeceff;
   --blue: #92b8ff;
-  --red: #d43535;
+  --red: #5c0202;
   --background-img1: url("/media/background1.jpg");
   --background-img2: url("/media/background2.jpg");
 }
@@ -35,7 +35,7 @@ h5 {
   --nav-background: var(--peach);
   --post-background: var(--light-pink);
   --text-primary: var(--red);
-  --post-button: var(--black);
+  --post-button: var(--grey-pink);
   --sort-buttons: var(--light-pink);
   --nav-text: var(--white);
   --background-img: var(--background-img2);

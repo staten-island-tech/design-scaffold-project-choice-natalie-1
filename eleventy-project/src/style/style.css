@@ -194,11 +194,46 @@ body {
 .btn-three:hover {
   transform: scale(1.25);
 }
-
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1400px) {
   .desk-nav {
     width: 80%;
     justify-content: end;
+  }
+  .article {
+    width: 90%;
+    height: 90%;
+  }
+  .img-preview {
+    width: 100%;
+    height: 60%;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .desk-nav {
+    width: 80%;
+    justify-content: end;
+  }
+  .article {
+    width: 90%;
+    height: 90%;
+  }
+  .img-preview {
+    width: 100%;
+    height: 80%;
+  }
+}
+@media only screen and (max-width: 1440px) {
+  .desk-nav {
+    width: 80%;
+    justify-content: end;
+  }
+  .article {
+    width: 90%;
+    height: 90%;
+  }
+  .img-preview {
+    width: 100%;
+    height: 75%;
   }
 }
 @media only screen and (max-width: 1000px) {
@@ -208,7 +243,7 @@ body {
   }
   .img-preview {
     width: 100%;
-    height: 60%;
+    height: 70%;
   }
 }
 @media only screen and (max-width: 800px) {
@@ -239,6 +274,11 @@ body {
     width: 80%;
     justify-content: end;
   }
+  .figure-image {
+    width: 40rem;
+    height: 40rem;
+    object-fit: contain;
+  }
 }
 
 #filter {
@@ -249,4 +289,14 @@ body {
   padding: 12px 20px 12px 40px;
   border: 1px solid #ddd;
   margin-bottom: 12px;
+}
+
+h1 {
+  font-size: 3rem;
+  padding-top: 2rem;
+  color: var(--text-primary);
+}
+
+p {
+  font-weight: bold;
 }
