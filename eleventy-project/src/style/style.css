@@ -9,7 +9,7 @@ body {
   box-sizing: border-box;
 }
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Reggae One", cursive;
   background-color: var(--primary-background);
   background-image: var(--background-img);
 }
@@ -91,6 +91,7 @@ body {
   font-weight: 700;
   border-radius: 5px;
   display: inline-block;
+  font-family: "Reggae One", cursive;
 }
 
 .articles {
@@ -294,7 +295,7 @@ body {
 h1 {
   font-size: 3rem;
   padding-top: 2rem;
-  color: var(--red);
+  color: var(--text-primary);
 }
 
 p {
